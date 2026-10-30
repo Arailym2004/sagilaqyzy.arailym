@@ -1,9 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="kk">
 <head>
-    <title>Менің сайтым</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сағилақызы Арайлым - Ғылыми портфолио</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+            color: #1e293b;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            color: #0f172a;
+            margin-bottom: 5px;
+            font-size: 2em;
+        }
+        .subtitle {
+            color: #0284c7;
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .info-section {
+            text-align: left;
+            margin-top: 20px;
+            border-top: 2px solid #f1f5f9;
+            padding-top: 20px;
+        }
+        .info-section p {
+            margin: 10px 0;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+        .research-box {
+            background: #f0fdf4;
+            border-left: 4px solid #22c55e;
+            padding: 15px;
+            margin-top: 20px;
+            text-align: left;
+            border-radius: 0 12px 12px 0;
+        }
+        .research-box h4 {
+            margin: 0 0 8px 0;
+            color: #15803d;
+        }
+        .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .hobby-tag {
+            background: #f1f5f9;
+            color: #475569;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        .social-link {
+            display: inline-block;
+            margin-top: 25px;
+            background: #E1306C;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+            box-shadow: 0 4px 10px rgba(225, 48, 108, 0.3);
+        }
+        .social-link:hover {
+            background: #C13584;
+        }
+    </style>
 </head>
 <body>
-    <h1>Сәлем, әлем! Бұл менің жеке сайтым.</h1>
+
+    <div class="card">
+        <h1>Сағилақызы Арайлым</h1>
+        <div class="subtitle">Магистрант • Ғылыми география</div>
+        
+        <div class="info-section">
+            <p><strong>Туған күні:</strong> 11.07.2004 ж.</p>
+            <p><strong>Туған жері:</strong> Қарағанды облысы</p>
+            <p><strong>Білімі:</strong> Е.А. Бөкетов атындағы Қарағанды ұлттық зерттеу университетінің түлегі</p>
+        </div>
+
+        <div class="research-box">
+            <h4>🔬 Зерттеу тақырыбы:</h4>
+            <p style="margin: 0; font-size: 0.95em; color: #166534;">
+                «Қазақтың ұсақшоқылы аумағының ландшафттық құрылымдық ерекшелігін қашықтықтан зондтау арқылы анықтау»
+            </p>
+        </div>
+
+        <h3 style="margin-top: 25px; font-size: 1.1em; color: #334155;">Қызығушылықтарым мен хоббиім:</h3>
+        <div class="hobbies">
+            <span class="hobby-tag">🧵 Тігін тігу</span>
+            <span class="hobby-tag">⛰️ Тауға шығу</span>
+            <span class="hobby-tag">⛺ Экспедициялар</span>
+            <span class="hobby-tag">📚 Көркем әдебиет</span>
+            <span class="hobby-tag">📜 Тарихи оқиғалар бойынша ақпараттар жинақтау</span>
+        </div>
+
+        <a href="https://instagram.com/aaraailymym._" target="_blank" class="social-link">Instagram: @aaraailymym._</a>
+    </div>
+
 </body>
 </html>
